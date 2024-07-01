@@ -11,14 +11,17 @@ export const DATA = {
     "I am a student who is passionate about exploring new horizons by combining my technology and language skills in the ever-changing flow of the digital world.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
     "CSS",
     "HTML",
     "Javascript",
+    "React",
+    "Next.js",
+    "TailwindCSS",
+    "PostgreSQL",
+    "Express.js",
+    "Typescript",
+    "Node.js",
+    "Python",
     "Social Media Management",
     "Photoshop",
     "Illustrator",
@@ -73,7 +76,6 @@ export const DATA = {
     {
       title: "Koochi",
       href: "https://koochi-production.up.railway.app/",
-      dates: "June 2024 - Present",
       active: true,
       description:
         "Discord Clone project featuring real-time chat, video and audio communication, file uploading, and authentication.",
@@ -105,15 +107,10 @@ export const DATA = {
     {
       title: "PureHour",
       href: "https://github.com/ValeChill/Hour-Clock",
-      dates: "June 2024 - Present",
       active: true,
       description:
-        "Help development of this project by contributing to the codebase. PureHour, a sleek and customizable productivity tool designed to enhance your workflow and keep you on track throughout the day.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ],
+        "I contributed to this project. PureHour, a sleek and customizable productivity tool designed to enhance your workflow and keep you on track throughout the day.",
+      technologies: ["HTML", "CSS", "Javascript"],
       links: [
         {
           type: "Source",
@@ -127,7 +124,6 @@ export const DATA = {
     {
       title: "9ix Music",
       href: "https://9ixmusic.com",
-      dates: "Jan 2022 - Present",
       active: true,
       description:
         "Website for 9ix Music. 9ix Music is a distributor of music and music videos. ",
@@ -145,7 +141,6 @@ export const DATA = {
     {
       title: "Artboard Media",
       href: "https://artboard.media",
-      dates: "Jan 2022 - Present",
       active: true,
       description:
         "Website for Artboard Media. Artboard Media is a digital marketing agency.",
@@ -163,25 +158,23 @@ export const DATA = {
     {
       title: "Janna - Discord Bot",
       href: "https://github.com/Yimikami/Janna",
-      dates: "June 2024 - Present",
       active: true,
       description:
         "Janna is a Discord bot designed to fetch League of Legends information using Riot Games API.",
-        technologies: ["Python"],
-        links: [
-          {
-            type: "Source",
-            href: "https://github.com/Yimikami/Janna",
-            icon: <Icons.github className="size-3" />,
-          }
-        ],
-        image: "/janna.gif",
-        video: "",
+      technologies: ["Python"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Yimikami/Janna",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/janna.gif",
+      video: "",
     },
     {
       title: "URL Shortener",
       href: "https://url-shortener-o5as.onrender.com/",
-      dates: "June 2024 - July 2024",
       active: true,
       description:
         "Web application that allows users to shorten URLs and manage them efficiently. It provides features such as generating QR codes for shortened URLs, updating existing URLs, and deleting URLs.",
