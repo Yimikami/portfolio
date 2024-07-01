@@ -29,6 +29,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <a href={DATA.locationLink} target="_blank" className="text-blue-500 hover:underline">
+              <BlurFadeText
+                className="max-w-[600px] md:text-sm"
+                delay={BLUR_FADE_DELAY}
+                text={DATA.location}
+              />
+              </a>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -164,10 +171,9 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I attended {DATA.hackathons.length}+ hackathons. It was
+                  eye-opening to see the endless possibilities brought to life
+                  by a group of motivated and passionate individuals.
                 </p>
               </div>
             </div>
@@ -204,7 +210,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just send an email {" "}
+                Want to chat? Just send an email{" "}
                 <Link
                   href={DATA.contact.email}
                   className="text-blue-500 hover:underline"
