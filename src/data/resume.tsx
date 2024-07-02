@@ -29,6 +29,10 @@ export const DATA = {
   contact: {
     email: "mailto:hi@yimikami.me",
     social: {
+      X: {
+        url: "https://twitter.com/yusufkaahya",
+        icon: Icons.x,
+      },
       GitHub: {
         url: "https://github.com/Yimikami",
         icon: Icons.github,

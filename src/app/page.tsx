@@ -29,12 +29,16 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <a href={DATA.locationLink} target="_blank" className="text-blue-500 hover:underline">
-              <BlurFadeText
-                className="max-w-[600px] md:text-sm"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.location}
-              />
+              <a
+                href={DATA.locationLink}
+                target="_blank"
+                className="text-blue-500 hover:underline"
+              >
+                <BlurFadeText
+                  className="max-w-[600px] md:text-sm"
+                  delay={BLUR_FADE_DELAY}
+                  text={DATA.location}
+                />
               </a>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
@@ -209,12 +213,12 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just send an email{" "}
+                Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href={DATA.contact.email}
+                  href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question
+                  with a direct question on X
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
