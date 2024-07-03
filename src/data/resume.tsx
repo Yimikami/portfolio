@@ -15,6 +15,7 @@ export const DATA = {
     "HTML",
     "Javascript",
     "React",
+    "Node.js",
     "Next.js",
     "Vite",
     "TailwindCSS",
