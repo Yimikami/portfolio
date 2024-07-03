@@ -16,11 +16,9 @@ export const DATA = {
     "Javascript",
     "React",
     "Next.js",
+    "Vite",
     "TailwindCSS",
-    "PostgreSQL",
-    "Express.js",
     "Typescript",
-    "Node.js",
     "Python",
     "Social Media Management",
     "Photoshop",
@@ -80,6 +78,7 @@ export const DATA = {
     {
       title: "Koochi",
       href: "https://koochi-production.up.railway.app/",
+      dates: "June 2024",
       active: true,
       description:
         "Discord Clone project featuring real-time chat, video and audio communication, file uploading, and authentication.",
@@ -111,6 +110,7 @@ export const DATA = {
     {
       title: "PureHour",
       href: "https://github.com/ValeChill/Hour-Clock",
+      dates: "June 2024 - Present",
       active: true,
       description:
         "I contributed to this project. PureHour, a sleek and customizable productivity tool designed to enhance your workflow and keep you on track throughout the day.",
@@ -128,6 +128,7 @@ export const DATA = {
     {
       title: "9ix Music",
       href: "https://9ixmusic.com",
+      dates: "Nov 2023",
       active: true,
       description:
         "Website for 9ix Music. 9ix Music is a distributor of music and music videos. ",
@@ -145,6 +146,7 @@ export const DATA = {
     {
       title: "Artboard Media",
       href: "https://artboard.media",
+      dates: "July 2023",
       active: true,
       description:
         "Website for Artboard Media. Artboard Media is a digital marketing agency.",
@@ -162,6 +164,7 @@ export const DATA = {
     {
       title: "Janna - Discord Bot",
       href: "https://github.com/Yimikami/Janna",
+      dates: "June 2024",
       active: true,
       description:
         "Janna is a Discord bot designed to fetch League of Legends information using Riot Games API.",
@@ -179,6 +182,7 @@ export const DATA = {
     {
       title: "URL Shortener",
       href: "https://url-shortener-o5as.onrender.com/",
+      dates: "June 2024",
       active: true,
       description:
         "Web application that allows users to shorten URLs and manage them efficiently. It provides features such as generating QR codes for shortened URLs, updating existing URLs, and deleting URLs.",
@@ -196,6 +200,29 @@ export const DATA = {
         },
       ],
       image: "/url-shortener.png",
+      video: "",
+    },
+    {
+      title: "Quote Generator",
+      href: "https://quote-generator-black-one.vercel.app/",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "Web application that generates random quotes. It fetches random quotes and corresponding images, displays them on the screen, and allows users to download the quote card as an image.",
+      technologies: ["React", "TailwindCSS", "Vite"],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://quote-generator-black-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Yimikami/quote-generator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/quote-generator.gif",
       video: "",
     },
   ],

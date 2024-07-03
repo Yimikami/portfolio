@@ -15,6 +15,7 @@ interface Props {
   title: string;
   href?: string;
   description: string;
+  dates: string;
   tags: readonly string[];
   link?: string;
   image?: string;
@@ -31,6 +32,7 @@ export function ProjectCard({
   title,
   href,
   description,
+  dates,
   tags,
   link,
   image,
@@ -64,13 +66,14 @@ export function ProjectCard({
             alt={title}
             width={800}
             height={600}
-            className="h-40 w-full overflow-hidden object-fill object-top"
+            className="h-44 w-full overflow-hidden object-fill object-top"
           />
         )}
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
+          <time className="font-sans text-xs">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
