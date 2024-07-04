@@ -137,7 +137,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://artboard.media",
+          href: "https://9ixmusic.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
