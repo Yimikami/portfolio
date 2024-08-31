@@ -49,7 +49,7 @@ export default function Navbar() {
               </Link>
             </TooltipTrigger>
             <TooltipContent>
-              <p>Blog</p>
+              <p>Mail</p>
             </TooltipContent>
           </Tooltip>
         </DockIcon>
